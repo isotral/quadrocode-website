@@ -63,7 +63,7 @@ const theme = createTheme({
             },
             fifth: {
                 white: "#FFFFFF",
-                100: "#F1F3F5",
+                100: "#F6F6F6",
             },
             sixth: {
                 black: "#000000",

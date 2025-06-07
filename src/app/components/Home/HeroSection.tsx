@@ -30,7 +30,7 @@ const HeroSection = () => {
                 sx={{
                     position: 'relative',
                     width: { xs: '100%', md: '400px' },
-                    height: { xs: 'auto', md: '300px' },
+                    height: { xs: 'auto', md: '380px' },
                     minHeight: { xs: '400px', md: 'auto' }, // Optional: Ensure height on mobile
                 }}
             >
