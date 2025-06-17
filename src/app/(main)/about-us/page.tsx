@@ -76,7 +76,7 @@ const AboutUs = () => {
                             [theme.breakpoints.up('lg')]: {
                                 fontSize: '4rem',
                             },
-                            color: theme.palette.primary.main,
+                            color: theme.palette.custom.fifth.white,
                         }}
                     >
                         WE ARE ENOSIS

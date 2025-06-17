@@ -92,10 +92,20 @@ const OurMembers = () => {
                                 border: '3px solid #2492EB',
                             }}
                         />
-                        <Typography variant="h6" fontWeight="bold">
+                        <Typography
+                            variant="h6"
+                            fontWeight="bold"
+                            sx={{
+                                color: theme.palette.custom.sixth[100],
+                            }} >
                             {member.name}
                         </Typography>
-                        <Typography variant="body2" color="text.secondary">
+                        <Typography
+                            variant="body2"
+                            color="text.secondary"
+                            sx={{
+                                color: theme.palette.custom.sixth[200],
+                            }}>
                             {member.role}
                         </Typography>
 

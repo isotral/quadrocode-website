@@ -74,7 +74,7 @@ const OurServices = () => {
                             gutterBottom
                             sx={{
                                 fontSize: 30,
-                                color: alpha(theme.palette.custom.fifth[100], 0.9),
+                                color: alpha(theme.palette.custom.fifth.white, 0.9),
                             }}
                         >
                             {service.title}
@@ -83,7 +83,7 @@ const OurServices = () => {
                             variant="body2"
                             sx={{
                                 fontSize: 18,
-                                color: alpha(theme.palette.custom.fifth[100], 0.7),
+                                color: alpha(theme.palette.custom.fifth.white, 0.9),
                             }}
                         >
                             {service.description}
