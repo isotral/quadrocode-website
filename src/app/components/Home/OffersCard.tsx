@@ -57,7 +57,7 @@ const OffersCard = ({
                         sx={{
                             fontSize: '30px',
                             lineHeight: 1.0,
-                            color: theme.palette.custom.first[100],
+                            color: theme.palette.secondary.main,
                         }}
 
                     >

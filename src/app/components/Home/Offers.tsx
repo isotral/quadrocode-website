@@ -24,7 +24,7 @@ const Offers = () => {
                         sx={{
                             fontSize: '40px',
                             textTransform: 'uppercase',
-                            color: theme.palette.custom.sixth[100],
+                            color: theme.palette.primary.main,
                         }}
                     >
                         WHAT WE OFFER

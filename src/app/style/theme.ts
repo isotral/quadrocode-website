@@ -50,10 +50,10 @@ const theme = createTheme({
     },
     palette: {
         primary: { main: "#F37021" },
-        secondary: { main: "#1E293B" },
+        secondary: { main: "#2492EB" },
         custom: {
             first: {
-                100: "#E92C33",
+                100: "#FF914C",
                 200: "#2563EB",
             },
             second: {

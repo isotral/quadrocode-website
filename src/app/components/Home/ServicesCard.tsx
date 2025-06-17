@@ -53,9 +53,9 @@ const ServicesCard = ({
                         fontWeight="bold"
                         mb={2}
                         sx={{
-                            fontSize: '40px',
+                            fontSize: '30px',
                             lineHeight: 1.0,
-                            color: theme.palette.custom.first[100],
+                             color: theme.palette.secondary.main,
                         }}
                     >
                         {title}

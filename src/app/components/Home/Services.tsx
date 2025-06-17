@@ -25,7 +25,7 @@ const Services = () => {
                         sx={{
                             fontSize: '40px',
                             textTransform: 'uppercase',
-                            color: theme.palette.custom.sixth[100],
+                            color: theme.palette.primary.main,
                         }}
                     >
                         Our Services
