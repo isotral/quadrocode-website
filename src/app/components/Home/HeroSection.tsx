@@ -1,9 +1,9 @@
 'use client';
 
+import theme from '@/app/style/theme';
 import { Box, Typography } from '@mui/material';
 import Image from 'next/image';
 import homeBanner from '../../assets/home-banner.png';
-import theme from '@/app/style/theme';
 
 const HeroSection = () => {
     return (
@@ -12,7 +12,8 @@ const HeroSection = () => {
             flexDirection={{ xs: 'column', md: 'row' }}
             alignItems="center"
             justifyContent="space-between"
-            gap={4}
+            mt={{ xs: 2, md: 8 }}
+            gap={{ xs: 4, md: 10 }}
         // bgcolor={theme => theme.palette.custom.first[100]}
         >
             {/* Left Side (Text) */}
@@ -29,12 +30,11 @@ const HeroSection = () => {
 
             {/* Right Side (Image) */}
             <Box
-                flex={1}
                 sx={{
                     position: 'relative',
                     width: { xs: '100%', md: '400px' },
                     height: { xs: 'auto', md: '380px' },
-                    minHeight: { xs: '400px', md: 'auto' }, // Optional: Ensure height on mobile
+                    minHeight: { xs: '400px', md: 'auto' },
                 }}
             >
                 <Image

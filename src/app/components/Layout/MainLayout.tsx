@@ -1,4 +1,4 @@
-import { Container } from '@mui/material';
+import { Box, Container } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
 import { ReactNode } from 'react';
 import Footer from '../Footer/Footer';
@@ -12,26 +12,25 @@ export default function MainLayout({ children }: MainLayoutProps) {
     const theme = useTheme();
 
     return (
-        <Container
-            maxWidth={false}
-            sx={{
-                maxWidth: '100%',
-                marginTop: '10px',
-                marginX: 'auto',
-                padding: '16px',
-                [theme.breakpoints.up('md')]: {
-                    padding: '32px',
-                },
-                [theme.breakpoints.up('xl')]: {
-                    maxWidth: '1280px',
-                },
-            }}
-        >
+        <Box sx={{ overflowX: 'hidden' }}>
             <Header />
-
-            {children}
-
-            <Footer />
-        </Container>
+            <Container
+                maxWidth={false}
+                sx={{
+                    maxWidth: '100%',
+                    marginX: 'auto',
+                    paddingX: '16px',
+                    [theme.breakpoints.up('md')]: {
+                        paddingX: '32px',
+                    },
+                    [theme.breakpoints.up('xl')]: {
+                        maxWidth: '1280px',
+                    },
+                }}
+            >
+                {children}
+                <Footer />
+            </Container>
+        </Box>
     );
 }

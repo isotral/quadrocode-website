@@ -30,7 +30,6 @@ const ServicesCard = ({
             >
                 {/* Left Side - Image */}
                 <Box
-                    flex={1}
                     sx={{
                         position: 'relative',
                         width: '100%',
@@ -48,14 +47,15 @@ const ServicesCard = ({
                 </Box>
 
                 {/* Right Side - Text */}
-                <Box flex={1} px={{ xs: 2, md: 4 }}>
+                <Box
+                    px={{ xs: 2, md: 4 }}>
                     <Typography
                         fontWeight="bold"
                         mb={2}
                         sx={{
                             fontSize: '30px',
                             lineHeight: 1.0,
-                             color: theme.palette.secondary.main,
+                            color: theme.palette.secondary.main,
                         }}
                     >
                         {title}
