@@ -22,7 +22,7 @@ import { usePathname } from 'next/navigation';
 const navLinks = [
     { label: 'Home', href: '/' },
     { label: 'About Us', href: '/about-us' },
-    { label: 'Contact Us', href: '/#contact' },
+    { label: 'Contact Us', href: '/contact-us' },
 ];
 
 const Header = () => {

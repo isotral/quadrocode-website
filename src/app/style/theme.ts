@@ -9,6 +9,7 @@ declare module '@mui/material/styles' {
             fifth: { white: string; 100: string };
             sixth: { black: string; 100: string; 200: string };
             seventh: { 100: string };
+            button: { 100: string; 200: string };
         };
     }
 
@@ -19,6 +20,7 @@ declare module '@mui/material/styles' {
             fifth: { white: string; 100: string };
             sixth: { black: string; 100: string; 200: string };
             seventh: { 100: string };
+            button: { 100: string; 200: string };
         };
     }
 }
@@ -73,6 +75,12 @@ const theme = createTheme({
             seventh: {
                 100: "#ef4a23",
             },
+            button: {
+                100: "#F37021",
+                200: "#c2510a",
+            },
+
+
         },
     },
 });
