@@ -32,7 +32,7 @@ const HeroSection = () => {
                         'url("https://img.freepik.com/free-psd/call-center-worker-desk_23-2150432594.jpg?semt=ais_hybrid&w=740")',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
-                    filter: 'blur(4px)',
+                    filter: 'blur(8px)',
                     zIndex: 1,
                 }}
             />
