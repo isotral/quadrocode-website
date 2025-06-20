@@ -37,7 +37,9 @@ const Offers = () => {
                             color: theme.palette.custom.sixth[200]
                         }}
                     >
-                        Enosis works as an extension of your development and testing team. We will work together to solve your business cases and get the maximum value of your budget. One of our differentiating qualities is that we take the time to understand the particular challenges, difficulties, and needs of your business.
+                        Squadro Soft
+
+ works as an extension of your development and testing team. We will work together to solve your business cases and get the maximum value of your budget. One of our differentiating qualities is that we take the time to understand the particular challenges, difficulties, and needs of your business.
                     </Typography>
                 </Container>
             </Box>
@@ -46,7 +48,9 @@ const Offers = () => {
             <Box display="flex" flexDirection={{ xs: 'column-reverse', md: 'row' }} gap={{ xs: 0, md: 10 }}>
                 <OffersCard
                     title="Qualified Engineers"
-                    description="Enosis is a team of 350+ software experts. We continue to strive in being the best in the industry by hiring engineers from renowned universities. Having team members experienced in a wide range of technology stacks enables us to meet different customers needs."
+                    description="Squadro Soft
+
+ is a team of 350+ software experts. We continue to strive in being the best in the industry by hiring engineers from renowned universities. Having team members experienced in a wide range of technology stacks enables us to meet different customers needs."
                     image={qualifiedEngineers}
                 />
                 <OffersCard
