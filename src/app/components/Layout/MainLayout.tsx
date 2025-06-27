@@ -29,8 +29,8 @@ export default function MainLayout({ children }: MainLayoutProps) {
                 }}
             >
                 {children}
-                <Footer />
             </Container>
+            <Footer />
         </Box>
     );
 }

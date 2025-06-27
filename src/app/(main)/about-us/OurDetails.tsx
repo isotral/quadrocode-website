@@ -3,7 +3,7 @@ import { Divider, Stack, Typography } from '@mui/material';
 import Box from '@mui/material/Box';
 import Image from 'next/image';
 
-import logo from '../../assets/squadroSoftLogo.jpeg';
+import logo from '../../assets/SquadroSoft_box_hernuk.png';
 
 const OurDetails = () => {
     const data = {

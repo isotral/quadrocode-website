@@ -16,7 +16,7 @@ import {
 } from '@mui/material';
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
-import logo from '../../assets/squadroSoftLogo.jpeg';
+import logo from '../../assets/SquadroSoft_banner_df0ucp.png';
 import { usePathname } from 'next/navigation';
 import NextLink from 'next/link';
 
@@ -87,7 +87,7 @@ const Header = () => {
                 <Image
                   src={logo}
                   alt="Logo"
-                  width={50}
+                  width={100}
                   height={50}
                   style={{ cursor: 'pointer' }}
                 />
